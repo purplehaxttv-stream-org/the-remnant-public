@@ -131,7 +131,7 @@ Every ghost in The Remnant is rooted in real folklore. We researched the mytholo
 
 We're building The Remnant in the open. Track our progress:
 
-**[Public Roadmap](https://purplehaxttv.atlassian.net/jira/discovery/projects/RR/board)**
+**[Public Roadmap](https://purplehaxttv.atlassian.net/jira/discovery/share/views/bc839b1c-f48c-4c57-a3fd-0be04bb57b26)**
 
 Target release: **December 31, 2026**
 
