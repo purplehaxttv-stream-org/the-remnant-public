@@ -4,7 +4,7 @@
 
 Unity 6 | Mirror Networking | Live World | 1-Year Canonical Timeline
 
-*PurpleHax LLC*
+*PurpleHax Games*
 
 ---
 
@@ -145,4 +145,4 @@ That said, we're human. If you see something in this game that misrepresents you
 
 ---
 
-*PurpleHax LLC*
+*PurpleHax Games*
