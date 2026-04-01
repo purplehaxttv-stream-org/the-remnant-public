@@ -1,0 +1,59 @@
+name: "Report a Cultural Concern"
+description: "Something feels off about how a culture or folklore tradition is represented in The Remnant"
+labels: ["cultural-concern"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report this. We take cultural representation seriously and we will review every concern.
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      description: Which region does this concern relate to?
+      options:
+        - North America
+        - Central America & Caribbean
+        - South America
+        - Western Europe
+        - Eastern Europe
+        - Middle East & North Africa
+        - Sub-Saharan Africa
+        - South Asia
+        - East Asia
+        - Southeast Asia
+        - Not region-specific
+    validations:
+      required: true
+  - type: input
+    id: ghost-or-content
+    attributes:
+      label: Ghost or Content
+      description: Which ghost, mechanic, or piece of content is this about?
+      placeholder: "e.g., Bhoot, a ritual mechanic, a location description"
+    validations:
+      required: true
+  - type: textarea
+    id: what-is-wrong
+    attributes:
+      label: What did we get wrong?
+      description: Describe what feels inaccurate, disrespectful, or inappropriate about the representation.
+      placeholder: Tell us what the issue is and, if possible, what the correct understanding is.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: How would you suggest we address it?
+      description: If you have ideas for how we could fix or improve this, we'd love to hear them.
+      placeholder: Revise the portrayal, add context, remove the content, replace with something else, etc.
+    validations:
+      required: false
+  - type: input
+    id: cultural-connection
+    attributes:
+      label: Your connection to this culture (optional)
+      description: Are you a member of this culture, a scholar, or a concerned observer? This helps us understand your perspective.
+      placeholder: "e.g., I am Filipino, I study Mesoamerican folklore, etc."
+    validations:
+      required: false

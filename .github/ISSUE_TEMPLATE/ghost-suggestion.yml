@@ -1,0 +1,48 @@
+name: "Ghost Suggestion"
+description: "Suggest a ghost type from your culture's folklore for consideration in The Remnant"
+labels: ["ghost-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We love hearing about folklore from around the world. If there's a ghost or spirit from your culture that you think belongs in The Remnant, tell us about it.
+  - type: input
+    id: ghost-name
+    attributes:
+      label: Ghost Name
+      description: What is the spirit or entity called?
+      placeholder: "e.g., Kuchisake-onna"
+    validations:
+      required: true
+  - type: input
+    id: region-culture
+    attributes:
+      label: Region / Culture of Origin
+      description: Where does this ghost come from? Be as specific as you'd like.
+      placeholder: "e.g., Japanese urban folklore, Yoruba tradition (Nigeria), Appalachian folk tales"
+    validations:
+      required: true
+  - type: textarea
+    id: folklore-description
+    attributes:
+      label: Folklore Description
+      description: Tell us the story. What is this ghost? What does it do? How is it traditionally described?
+      placeholder: Share as much as you know about the folklore, legends, or traditions surrounding this spirit.
+    validations:
+      required: true
+  - type: textarea
+    id: why-it-fits
+    attributes:
+      label: Why it fits The Remnant
+      description: What makes this ghost a good fit for the game? Think about gameplay, atmosphere, or how it would feel to investigate.
+      placeholder: "e.g., It has unique detection methods, it would create an interesting gameplay loop, it fills a gap in a region's roster"
+    validations:
+      required: false
+  - type: input
+    id: cultural-connection
+    attributes:
+      label: Your connection to this folklore (optional)
+      description: Are you from this culture or tradition? This helps us understand who's sharing the story.
+      placeholder: "e.g., This is from my grandmother's stories, I study this in university, etc."
+    validations:
+      required: false

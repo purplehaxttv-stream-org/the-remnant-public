@@ -1,0 +1,27 @@
+name: "General Feedback"
+description: "Anything else you want to share with the team"
+labels: ["feedback"]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What's on your mind?
+      description: Feature ideas, design thoughts, things you love, things you hate — we're listening.
+      placeholder: Tell us anything.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What area does this relate to?
+      options:
+        - Gameplay / Mechanics
+        - Ghost / Folklore Content
+        - Art / Visual Direction
+        - Story / Lore
+        - Multiplayer / Social
+        - Progression / Economy
+        - Other
+    validations:
+      required: false
