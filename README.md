@@ -2,7 +2,7 @@
 
 **A Multiplayer Paranormal Horror Game**
 
-Unity 6 | Mirror Networking | Live World | 1-Year Canonical Timeline
+Unity 6 | Mirror Networking | Live World | 3-Year Canonical Timeline
 
 *PurpleHax Studios*
 
@@ -12,7 +12,7 @@ Unity 6 | Mirror Networking | Live World | 1-Year Canonical Timeline
 
 The Remnant is a multiplayer paranormal investigation game where teams investigate hauntings across the globe. Every contract follows a three-phase pipeline — detect, identify, resolve — with different teams potentially handling each phase. The stakes are real: make the wrong call and you die.
 
-The world runs on a one-year canonical timer from launch. A global community score tracks humanity's success against the supernatural. When the timer ends, one of two things happens — and the outcome depends on every player who ever picked up a contract.
+The world runs on a three-year canonical timer from launch. A global community score tracks humanity's success against the supernatural. When the timer ends, one of two things happens — and the outcome depends on every player who ever picked up a contract.
 
 The server lives once. The server dies once.
 
